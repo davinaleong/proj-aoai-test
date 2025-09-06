@@ -1,0 +1,29 @@
+{
+  "name": "proj-task-tracker",
+  "version": "1.0.0",
+  "description": "My AI Task Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davinaleong/proj-task-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/davinaleong/proj-task-tracker/issues"
+  },
+  "homepage": "https://github.com/davinaleong/proj-task-tracker#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
