@@ -4,8 +4,8 @@
   "description": "My AI Task Tracker",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "basic": "node basic.js",
+    "multiturn": "node multiturn.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/davinaleong/proj-task-tracker/issues"
   },
@@ -23,7 +23,9 @@
     "nodemon": "^3.1.10"
   },
   "dependencies": {
+    "@azure/identity": "^4.11.1",
     "dotenv": "^17.2.2",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "openai": "^5.19.1"
   }
 }
