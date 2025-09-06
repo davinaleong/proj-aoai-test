@@ -1,3 +1,3 @@
-# AI Task Tracker
+# Azure OpenAI Test Code
 
-My AI Task Tracker
+Code taken from the Azure AI Foundry "Getting Started" guide.
