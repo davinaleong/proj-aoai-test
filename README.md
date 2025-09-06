@@ -1,2 +1,3 @@
-# proj-task-tracker
+# AI Task Tracker
+
 My AI Task Tracker
